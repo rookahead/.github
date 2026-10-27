@@ -1,51 +1,51 @@
-<div align="center">
-  <img src="https://avatars.githubusercontent.com/u/344234834?s=200&v=4" alt="Rookahead Logo" width="110" height="110" />
-  <h1>Rookahead</h1>
-  <p><strong>Free, unlimited chess game review in your browser.</strong></p>
-  <p>
-    <a href="https://rookahead.com"><strong>🌐 Play & Review on rookahead.com</strong></a> • 
-    <a href="https://github.com/rookahead/rookahead/issues"><strong>🐛 Report a Bug</strong></a> • 
-    <a href="mailto:support@rookahead.com"><strong>✉️ Contact Support</strong></a>
-  </p>
-</div>
+<p align="center">
+  <a href="https://rookahead.com">
+    <picture>
+      <source media="(prefers-color-scheme: dark)" srcset="logo-dark.png">
+      <img src="logo-light.png" width="340" alt="Rookahead">
+    </picture>
+  </a>
+</p>
 
----
+<p align="center">
+  <b>Free, unlimited chess game review in your browser.</b><br>
+  Stockfish 19 grades every move, from Legendary to Blunder. No sign-up, no limit, no paywall.
+</p>
 
-## ♟️ About Rookahead
+<p align="center">
+  <a href="https://rookahead.com"><b>rookahead.com</b></a> ·
+  <a href="https://rookahead.com/blog">Blog</a> ·
+  <a href="https://discord.gg/ebm3NZNHZH">Discord</a> ·
+  <a href="https://www.youtube.com/@rookahead">YouTube</a> ·
+  <a href="https://rookahead.com/donate">Donate</a>
+</p>
 
-**Rookahead** is an open-source chess analysis platform designed to make high-depth engine review accessible to everyone—without paywalls, daily limits, or mandatory sign-ups. 
+<p align="center">
+  <a href="https://rookahead.com"><img src="https://raw.githubusercontent.com/rookahead/rookahead/main/docs/images/review.png" alt="Rookahead reviewing Morphy's Opera Game: 16.Qb8+ is Legendary" width="820"></a>
+</p>
 
-Powered by **Stockfish 19** running directly in your browser, Rookahead evaluates every move of your game and grades your play from **Legendary** to **Blunder**.
+### What Rookahead is
 
-### ✨ Key Features
-* **100% Free & Unlimited:** Analyze as many games as you want, whenever you want.
-* **Client-Side Stockfish 19:** Fast, private, high-depth evaluation powered by WebAssembly.
-* **Move Classification:** Intuitive move grading (*Legendary, Best, Great, Inaccuracy, Mistake, Blunder*) and accuracy scoring.
-* **Zero Friction:** No account creation, no subscriptions, and no tracking paywalls. Import PGNs or games directly and start reviewing.
+Bring in your games by Chess.com or Lichess username, or paste a PGN. Stockfish 19 runs on your own device, so your games are never uploaded and there's no limit on how many you review. Every move gets one of eleven verdicts:
 
----
+**Legendary** · **Clutch** · **Best** · **Strong** · **Solid** · **Theory** · **Slip** · **Mistake** · **Oversight** · **Blunder** · **Forced**
 
-## 📦 Our Repositories
+The rules behind them are public, in the [rulebook](https://github.com/rookahead/rookahead/blob/main/docs/rulebook.md). Explain shows why a move was good or bad, and there are puzzles from your own mistakes, a daily puzzle, an analysis board and eight computer levels to play.
 
-| Repository | Description | Tech Stack | License |
-| :--- | :--- | :--- | :--- |
-| **[rookahead](https://github.com/rookahead/rookahead)** | Core web application and client-side Stockfish 19 game review interface. | TypeScript | GPL-3.0 |
-| **[rookahead-android](https://github.com/rookahead/rookahead-android)** | Official Android app wrapper (Trusted Web Activity) for the Google Play Store. | Java / Android | — |
+### Repositories
 
----
+| | |
+| :--- | :--- |
+| **[rookahead](https://github.com/rookahead/rookahead)** | The web app: review, Explain, puzzles, play and the blog. TypeScript, GPL-3.0. |
+| **[rookahead-android](https://github.com/rookahead/rookahead-android)** | The Android app for the Play Store, a Trusted Web Activity for rookahead.com. |
 
-## 🤝 Contributing
+### Get involved
 
-We welcome contributions from chess players, developers, and designers! Whether you want to fine-tune move classification thresholds, improve board UI responsiveness, or squash bugs:
+- Found a bug or a verdict that looks wrong? [Open an issue](https://github.com/rookahead/rookahead/issues), or use **Report this verdict** in the app.
+- Talk chess and send us your games on [Discord](https://discord.gg/ebm3NZNHZH).
+- Pull requests are welcome. For anything bigger than a fix, open an issue first so we can talk it through.
+- Private or security matters: [support@rookahead.com](mailto:support@rookahead.com).
 
-1. Browse open issues in [**`rookahead/rookahead`**](https://github.com/rookahead/rookahead/issues) or [**`rookahead/rookahead-android`**](https://github.com/rookahead/rookahead-android/issues).
-2. Fork the repository and create your feature branch (`git checkout -b feat/amazing-feature`).
-3. Commit your changes and open a Pull Request.
+### Support Rookahead
 
-For security vulnerabilities or private inquiries, reach out to us at [support@rookahead.com](mailto:support@rookahead.com).
-
----
-
-## 📄 License
-
-Core projects in this organization are open-source and distributed under the **GNU General Public License v3.0 (GPL-3.0)**. See individual repositories for full license details.
+Every feature stays free for everyone. If Rookahead helps your chess, you can help keep it going on the [Donate page](https://rookahead.com/donate) (UPI in India), through [GitHub Sponsors](https://github.com/sponsors/bijoyv9) or on [Buy Me a Coffee](https://buymeacoffee.com/bijoyv9i).
